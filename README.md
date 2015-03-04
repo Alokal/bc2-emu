@@ -32,7 +32,7 @@ Running game
 0. Make sure your game is the latest, non-steam version
 1. Run the masterserver
 2. Copy ```dinput8.dll``` to game directory
-3. Run the game, register a new account
+3. Run the game, register a new account. Email don't even have look like an email (e.g. 'lolzrandom' is perfectly fine)
 4. Play
 
 Running dedicated server
@@ -41,6 +41,11 @@ Running dedicated server
 2. Make sure masterserver is running
 3. Copy ```dinput8.dll``` to server directory
 4. Run the server, command-line is as such: ```Frost.Game.Main_Win32_Final.exe -serverInstancePath "Instance/" -mapPack2Enabled 1 -port 19567 -timeStampLogNames -region OC -heartBeatInterval 20000```
+
+Issues
+------------
+* Character 'x' is forbidden in account/persona names
+* passwords can't contain only 0's (e.g. 0000)
 
 Credits
 ------------
