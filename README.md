@@ -37,7 +37,7 @@ Running game
 
 Running dedicated server
 ------------
-1. Obtain Server R32 files
+1. Obtain Server R34 files
 2. Make sure masterserver is running
 3. Copy ```dinput8.dll``` to server directory
 4. Run the server, command-line is as such: ```Frost.Game.Main_Win32_Final.exe -serverInstancePath "Instance/" -mapPack2Enabled 1 -port 19567 -timeStampLogNames -region OC -heartBeatInterval 20000```
